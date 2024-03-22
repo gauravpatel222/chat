@@ -1,0 +1,60 @@
+/* SetAvatar.css */
+
+.title-container {
+  text-align: center;
+  margin-bottom: 20px;
+  color:white;
+}
+
+.avatars {
+  display: flex;
+  gap: 20px; /* Adjust the gap between avatars as needed */
+  margin: 6rem 0; /* Adjust margin as needed */
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.avatar {
+  border: 0.4rem solid transparent;
+  padding: 0.4rem;
+  border-radius: 50%; /* Make it round */
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.avatar img {
+  height: 4rem; /* You can adjust the height here */
+  width: 4rem; /* Make the width same as height for a circular avatar */
+  border-radius: 50%; /* Make it round */
+  transition: 0.5s ease-in-out;
+}
+
+.avatar.selected {
+  border: 0.4rem solid #4e0eff;
+}
+
+.avatar:hover {
+  background-color: rgba(78, 14, 255, 0.2); /* Add a subtle hover background color */
+}
+
+.submit-btn {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #4e0eff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.submit-btn:hover {
+  background-color: #3c0bc1;
+}
+
+.loader {
+  display: block;
+  margin: 50px auto;
+}
