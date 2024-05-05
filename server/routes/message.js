@@ -19,7 +19,7 @@
                         }
 
             })
-            return res.json(allmessages);
+        
 
     })
     app.post('/addmessage',async (req,res)=>{
